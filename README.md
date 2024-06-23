@@ -7,7 +7,6 @@ The School Management System is a PHP-based web application designed to facilita
 - **Home Page (`index.php`)**:
     - Lists all students with their details (name, email, class, image thumbnail).
     - Allows viewing, editing, and deleting student records.
-    - Utilizes SQL JOIN to fetch class names associated with students.
 
 - **Create Student (`create.php`)**:
     - Form to add a new student with fields for name, email, address, class (dropdown), and image upload.
@@ -34,11 +33,10 @@ The School Management System is a PHP-based web application designed to facilita
     - Images are stored in the `uploads` directory.
     - Validates file types (JPG, PNG) and ensures unique filenames to prevent conflicts.
 
-## Setup Instructions
+## How to Setup
 
 1. **Prerequisites**:
-    - Install XAMPP or a similar local server environment with Apache, MySQL, and PHP support.
-    - Ensure PHP's `file_uploads` directive is enabled in `php.ini` for image upload functionality.
+    - Install XAMPP with Apache, MySQL, and PHP support.
 
 2. **Database Setup**:
     - Create a MySQL database named `{{school_db}}`.
@@ -58,7 +56,5 @@ The School Management System is a PHP-based web application designed to facilita
 
 - **Backend**: PHP
 - **Database**: MySQL
-- **Frontend**: HTML, CSS (Bootstrap for styling, optional)
-
-## Folder Structure
+- **Frontend**: HTML, CSS (Bootstrap for styling)
 
